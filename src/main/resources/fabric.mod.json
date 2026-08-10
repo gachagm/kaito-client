@@ -8,11 +8,17 @@
     "Kaito"
   ],
   "environment": "client",
+
+  "mixins": [
+    "kaitoclient.mixins.json"
+  ],
+
   "entrypoints": {
     "client": [
       "de.kaito.client.KaitoClient"
     ]
   },
+
   "depends": {
     "fabricloader": ">=0.17.0",
     "minecraft": "1.21.11",
