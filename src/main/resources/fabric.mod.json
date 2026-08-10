@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "kaitoclient",
+  "version": "0.1.0",
+  "name": "Kaito Client",
+  "description": "A custom Minecraft client with cosmetics, zoom and more.",
+  "authors": [
+    "Kaito"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.kaito.client.KaitoClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
