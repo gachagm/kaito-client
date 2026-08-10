@@ -9,5 +9,7 @@ public class KaitoClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         System.out.println("[Kaito Client] Loaded!");
+
+        KaitoZoom.initialize();
     }
 }
